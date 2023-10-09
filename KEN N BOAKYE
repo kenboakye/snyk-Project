@@ -1,0 +1,8 @@
+echo "# snyk-Project" >> README.md
+git init
+cd the-fork
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:kenboakye/snyk-Project.git
+git push -u origin main
